@@ -1,20 +1,20 @@
 
-let countEl = document.getElementById("count-el")
-let saveEl = document.getElementById("save-el")
+let openEl = document.getElementById("open-el")
+let closeEl = document.getElementById("close-el")
 let count = 0
 
 
 
-function increment() {
+function open() {
     count += 1
     countEl.textContent = count
 
 }
 
 
-function save() {
+function close() {
     let countStr = count + " - "
-    saveEl.textContent += countStr
+    closeEl.textContent += countStr
     countEl.textContent = 0
     count = 0
    

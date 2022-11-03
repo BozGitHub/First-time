@@ -33,12 +33,12 @@ button {
     border-radius: 5px;
 }
 
-#increment-btn {
-    background: rgb(235, 10, 28);
+#open-btn {
+    background: rgb(10, 235, 59);
 }
 
-#save-btn {
-    background: rgb(16, 194, 16);
+#close-btn {
+    background: rgb(240, 8, 8);
 }
 
 
