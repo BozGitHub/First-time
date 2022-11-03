@@ -5,14 +5,14 @@ let open = 0
 
 
 
-function open() {
+function openDoor() {
     open += 1
-    openEl.textContent = count
+    openEl.textContent = open
 
 }
 
 
-function close() {
+function closeDoor() {
     let openStr = open + " - "
     closeEl.textContent += openStr
     openEl.textContent = 0
