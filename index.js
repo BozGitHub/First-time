@@ -1,22 +1,22 @@
 
 let openEl = document.getElementById("open-el")
 let closeEl = document.getElementById("close-el")
-let count = 0
+let open = 0
 
 
 
 function open() {
-    count += 1
-    countEl.textContent = count
+    open += 1
+    openEl.textContent = count
 
 }
 
 
 function close() {
-    let countStr = count + " - "
-    closeEl.textContent += countStr
-    countEl.textContent = 0
-    count = 0
+    let openStr = open + " - "
+    closeEl.textContent += openStr
+    openEl.textContent = 0
+    open = 0
    
     
 
